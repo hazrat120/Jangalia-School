@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: var(--sada);
+}
+
+.nav_ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav_ul li {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.nav_logo {
+  height: 196px;
+  width: 207px;
+}
