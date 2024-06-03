@@ -2,20 +2,27 @@
   background: url(/public/images/chart_bg.jpg) no-repeat;
   max-width: 1920px;
   background-blend-mode: overlay;
-  height: 307px;
+  height: 300px;
 }
 
 .details_wrapper {
   display: flex;
   align-items: center;
-  gap: 150px;
   justify-content: center;
   height: 300px;
 }
 
 .details_items {
+  width: 285px;
+  height: 113px;
   display: flex;
   color: var(--sada);
+}
+
+.details_items img {
+  width: 78px;
+  height: 59px;
+  margin-top: 10px;
 }
 
 .details_items div span {
