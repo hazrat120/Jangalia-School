@@ -1,5 +1,5 @@
 import styled from "./footer.module.css";
-import Button from "./../atoms/Button/index";
+import Button from "../atoms/Button/index";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";

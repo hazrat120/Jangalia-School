@@ -1,0 +1,23 @@
+.banner {
+  padding: 97px 0;
+  background: url(/public/images/about-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 54px;
+  font-weight: 700;
+  color: var(--sada);
+  margin-top: 45px;
+}

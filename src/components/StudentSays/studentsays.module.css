@@ -1,0 +1,68 @@
+.studentsays_main {
+  padding-bottom: 98px;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  padding-top: 98px;
+}
+
+.secondwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 31px;
+}
+
+.secondwrapper h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.quote_circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  font-size: 35px;
+}
+
+.quote_text {
+  width: 794px;
+  display: flex;
+  align-items: baseline;
+}
+
+.quote_text p {
+  font-size: 17px;
+  line-height: 2;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.double_quote {
+  font-size: 60px;
+  color: var(--primary-color);
+}
+
+.student_id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+
+.student_id div {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.student_id div p:first-child {
+  color: var(--primary-color);
+  line-height: 2;
+}

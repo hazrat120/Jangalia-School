@@ -1,0 +1,27 @@
+.whatweare {
+  padding: 98px 0;
+}
+
+.whatweare_wrapper {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatweare_textpart {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.whatweare_textpart h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.whatweare_textpart p {
+  font-size: 17px;
+}

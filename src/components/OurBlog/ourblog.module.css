@@ -176,11 +176,10 @@
 /* blog image 4 */
 
 .blog_img4 {
-  width: 350px;
-  height: 327px;
   background-color: var(--sada);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 5px;
+  position: relative;
 }
 
 .blog_text5 {
@@ -197,4 +196,18 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.video_button {
+  font-size: 20px;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 23%;
+  left: 41%;
+  color: var(--sada) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid white;
+  border-radius: 50%;
 }

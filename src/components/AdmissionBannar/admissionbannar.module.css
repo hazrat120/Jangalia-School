@@ -1,0 +1,22 @@
+.admission_bannar {
+  background: url(/public/images/banar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 0 100px 0;
+}
+
+.admission_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admission_text h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sada);
+  font-size: 54px;
+  font-weight: 700;
+}

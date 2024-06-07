@@ -1,9 +1,19 @@
-import Homepage from "./pages/HomePage/Homepage";
+// import Homepage from "./pages/HomePage/Homepage";
+// import About from "./pages/About/index";
+import Admission from "./pages/Admission/index";
 
 function App() {
   return (
     <>
-      <Homepage />
+      {/* <div>
+        <Homepage />
+      </div>
+      <div>
+        <About />
+      </div> */}
+      <div>
+        <Admission />
+      </div>
     </>
   );
 }

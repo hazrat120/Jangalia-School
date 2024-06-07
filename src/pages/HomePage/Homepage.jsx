@@ -4,7 +4,7 @@ import WelcomePage from "../../components/Welcome/WelcomePage";
 import UpcomingEventDate from "../../components/UpcomingEvent/index";
 import DetailsChart from "../../components/DetailsChart/index";
 import Blog from "../../components/OurBlog/index";
-import Footer from "../../components/footer/index";
+import Footer from "../../components/Footer/index";
 
 const Homepage = () => {
   return (

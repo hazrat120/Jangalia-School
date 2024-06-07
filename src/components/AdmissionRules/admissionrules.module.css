@@ -1,0 +1,40 @@
+.admissionrules {
+  padding: 60px 15px;
+}
+
+.admission_wrapper h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+
+.admissionrule {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text {
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.rules {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rules1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.rules1 p {
+  color: var(--primary-color);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+}

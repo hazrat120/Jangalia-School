@@ -3,6 +3,7 @@ import Button from "../../components/atoms/Button/index";
 import { FaRegUser } from "react-icons/fa";
 import { FaRegClock } from "react-icons/fa6";
 import { TbBrandTorchain } from "react-icons/tb";
+import { SiGoogledisplayandvideo360 } from "react-icons/si";
 
 const index = () => {
   return (
@@ -106,6 +107,9 @@ const index = () => {
                     <span>9- Nov-2016</span>
                   </div>
                 </div>
+              </div>
+              <div className={styled.video_button}>
+                <SiGoogledisplayandvideo360 />
               </div>
             </div>
           </div>
